@@ -8,14 +8,14 @@ function Particle() {
       params={{
         "particles":{
           "number":{
-             "value":80,
+             "value":40,
              "density":{
                 "enable":true,
                 "value_area":1736.124811591
              }
           },
           "color":{
-             "value":"#ffffff"
+             "value":"#D0FFCE"
           },
           "shape":{
              "type":"square",
@@ -33,7 +33,7 @@ function Particle() {
              }
           },
           "opacity":{
-             "value":0.2,
+             "value":0.6,
              "random":false,
              "anim":{
                 "enable":false,
@@ -78,8 +78,8 @@ function Particle() {
         "detect_on":"canvas",
         "events":{
            "onhover":{
-              "enable":false,
-              "mode":"repulse"
+              "enable":true,
+              "mode":"bubble"
            },
            "onclick":{
               "enable":false,

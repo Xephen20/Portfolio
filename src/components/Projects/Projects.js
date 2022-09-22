@@ -12,6 +12,9 @@ import sequencer from "../../Assets/Projects/sequencer.png";
 import system3000 from "../../Assets/Projects/system3000.png";
 import horus from "../../Assets/Projects/horus.png";
 import autoproces from "../../Assets/Projects/autoproces.png";
+import Kuna from "../../Assets/Projects/Kuna.png";
+import Primaloft from "../../Assets/Projects/Primaloft.png";
+import kubaportfolio from "../../Assets/Projects/kuba-portfolio.png";
 
 function Projects() {
   return (
@@ -41,7 +44,7 @@ function Projects() {
               imgPath={camera}
               isBlog={false}
               title="Custom smart camera"
-              description="Our 5MP ARM based smart camera with ethernet interface and light control. Programmed in MicroPython. Capable of direct socket communication with Fanuc (and other) robots."
+              description="Our 5MP ARM based smart camera with ethernet interface and light control. Programmed in MicroPython. Capable of direct socket communication with Fanuc (and other) robots"
             />
           </Col>
 
@@ -59,7 +62,17 @@ function Projects() {
               imgPath={kartoniarka}
               isBlog={false}
               title="Vision system for cardboard folding robot"
-              description="ARM CPU board with linux, working with Basler camera and live preview with web interface. Program calculate cardboard position in 3D space and distance which can be measured with very high precision (1mm on entire stack's height). All working with red light and communicating with 6-axis Fanuc robot."
+              description="ARM CPU board with linux, working with Basler camera and live preview with web interface. Program calculate cardboard position in 3D space and distance which can be measured with very high precision (1mm on entire stack's height). All working with red light and communicating with 6-axis Fanuc robot"
+
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Kuna}
+              isBlog={false}
+              title="KUNA"
+              description="Webtool built to speed up an ease the usage of IFS ERP in repairs business. High traffic used by 600+ people"
 
             />
           </Col>
@@ -69,7 +82,7 @@ function Projects() {
               imgPath={listwy}
               isBlog={false}
               title="Vision system for riveting machine"
-              description="Product placement in riveting machine using our smart camera. Very high precision (0.01 mm). Additional quality check and fast response time. STM-32 Camera with MicroPython on board. Works with Fanuc Robot using socket messaging communication. The camera also has a connector to power light with 24V which can be controlled using our board. Everything is enclosed in metal case with lens mount."
+              description="Product placement in riveting machine using our smart camera. Very high precision (0.01 mm). Additional quality check and fast response time. STM-32 Camera with MicroPython on board. Works with Fanuc Robot using socket messaging communication. The camera also has a connector to power light with 24V which can be controlled using our board. Everything is enclosed in metal case with lens mount"
             />
           </Col>
 
@@ -78,7 +91,7 @@ function Projects() {
               imgPath={riverts}
               isBlog={false}
               title="Quality control vision system"
-              description="Touch panel based on Raspberry Pi CM4, used for object detection and validation with special trained model, in real time. Camera streams image to panel and display validation results. If detected object is incorrect, panel displays alert with confirmation."
+              description="Touch panel based on Raspberry Pi CM4, used for object detection and validation with special trained model, in real time. Camera streams image to panel and display validation results. If detected object is incorrect, panel displays alert with confirmation"
             />
           </Col>
 
@@ -109,6 +122,26 @@ function Projects() {
             />
           </Col>
          
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Primaloft}
+              isBlog={false}
+              title="Primaloft"
+              description="Description here"
+              
+            />
+          </Col>
+          
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={kubaportfolio}
+              isBlog={false}
+              title="Kuba Elwertowski portfolio"
+              description="Description here"
+              
+            />
+          </Col>
+
         </Row>
       </Container>
     </Container>

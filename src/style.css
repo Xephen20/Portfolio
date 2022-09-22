@@ -1,11 +1,16 @@
 :root {
   /* --global-color-text: #c770f0; --old */
   --global-navbar-dropdown: rgba(29, 28, 5, 0.171);
-  --global-color: rgba(119, 53, 136, 0.459);
-  --global-color-hover: rgba(134, 53, 155, 0.574);
-  --global-color-text: #00ff1e;
-  --global-background-gradient1: rgba(16, 17, 16, 0.582);
-  --global-background-gradient2: rgba(12, 8, 24, 0.904);
+  /* --global-color: rgba(119, 53, 136, 0.459); */
+  --global-color: #009FB7;
+  /* --global-color-hover: rgba(134, 53, 155, 0.574); */
+  --global-color-hover: #EFF1F3;
+  --global-color-text: #CBEFB6;
+  /* --global-color-text: #00ff1e; */
+  /* --global-background-gradient1: rgba(16, 17, 16, 0.582);
+  --global-background-gradient2: rgba(12, 8, 24, 0.904); */
+  --global-background-gradient1: #3D2B3D;
+  --global-background-gradient2: #3D2B3D;
 
 }
 
@@ -14,17 +19,7 @@
   color: var(--global-color-text) !important;
 }
 html {
---section-background-color: linear-gradient(
-  to bottom left,
-  var(--global-background-gradient1),
-  var(--global-background-gradient2)
-);
-
---image-gradient: linear-gradient(
-  to bottom left,
-  rgba(17, 16, 16, 0.678),
-  rgba(12, 10, 22, 0.863)
-);
+  background-color: var(--global-background-gradient1);
 }
 
 .purple {
@@ -475,6 +470,9 @@ height: 100% !important;
 transform: scale(1.02) !important;
 overflow: hidden !important;
 box-shadow: 0 4px 4px 5px var(--global-color-hover) !important;
+background-color: var(--global-color-text) !important;
+color: var(--global-background-gradient1) !important;
+cursor: pointer;
 }
 
 .blog-card {
@@ -556,10 +554,11 @@ color: white !important;
 
 .tech-icons {
 font-size: 4.5em !important;
+color: var(--global-color-text);
 margin: 15px !important;
 padding: 10px !important;
 opacity: 0.93 !important;
-border: 1.7px solid var(--global-color-hover) !important;
+border: 1.7px solid var(--global-color) !important;
 vertical-align: middle !important;
 text-align: center !important;
 border-radius: 5px !important;
@@ -568,7 +567,9 @@ box-shadow: 4px 5px 4px 3px var(--global-color) !important;
 overflow: hidden !important;
 transition: all 0.4s ease 0s !important;
 }
-
+.tech-icons-text{
+  font-size: 20px !important;
+}
 @media (max-width: 767px) {
 .tech-icons {
   margin: 10px !important;
@@ -578,7 +579,10 @@ transition: all 0.4s ease 0s !important;
 .tech-icons:hover {
 transform: scale(1.05) !important;
 overflow: hidden !important;
-border: 2.2px solid rgba(197, 115, 230, 0.883) !important;
+opacity: 1 !important;
+border: 2.2px solid var(--global-text) !important;
+background-color: var(--global-color-text);
+color: var(--global-background-gradient1);
 }
 .tech-icon-images {
 padding: 20px !important;
