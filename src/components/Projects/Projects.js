@@ -25,7 +25,7 @@ function Projects() {
           Our Recent <strong className="purple">Works </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects we've worked on recently.
+          Here are a few projects we've worked on.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
 
@@ -35,7 +35,7 @@ function Projects() {
               isBlog={false}
               title="Metalwit OEE / WMS"
               description="Data collection from CNC machines, custom touch panels and dashboards. Custom linux nodes and network"
-              
+
             />
           </Col>
 
@@ -53,7 +53,7 @@ function Projects() {
               imgPath={autoproces}
               isBlog={false}
               title="Autoproces vision"
-              description="End-to-end application for training and deploy models for object detection and validation. Application works in communication with PLC's and robots. Base board is Raspberry Pi 4"
+              description="End-to-end application for training and deployment of models for object detection and validation. Application communicates with PLC's and robots. Base board is Raspberry Pi 4"
             />
           </Col>
 
@@ -72,7 +72,7 @@ function Projects() {
               imgPath={Kuna}
               isBlog={false}
               title="KUNA"
-              description="Webtool built to speed up an ease the usage of IFS ERP in repairs business. High traffic used by 600+ people"
+              description="Webtool built to speed up and ease the usage of IFS ERP in repairs business. High traffic used by 600+ people"
 
             />
           </Col>
@@ -99,7 +99,7 @@ function Projects() {
             <ProjectCard
               imgPath={sequencer}
               isBlog={false}
-              title="Algorithmic sequencer prototype"
+              title="Algorithmic sequencer"
               description="Open-source euclidean midi sequencer with display and custom hot-swap switches"
             />
           </Col>
@@ -109,7 +109,7 @@ function Projects() {
               imgPath={system3000}
               isBlog={false}
               title="System3000"
-              description="Recovery of debts / sales of debts - Web portal"
+              description="Recovery of debts / sales of debts - Web portal backend"
             />
           </Col>
 
@@ -121,24 +121,24 @@ function Projects() {
               description="Complex CRM and related tools for polish 3M reseller"
             />
           </Col>
-         
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={Primaloft}
               isBlog={false}
               title="Primaloft"
-              description="Description here"
-              
+              description="Web backend for Primnaloft's voting system and website"
+
             />
           </Col>
-          
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={kubaportfolio}
               isBlog={false}
               title="Kuba Elwertowski portfolio"
-              description="Description here"
-              
+              description="One of many nice personal websites we prepared in the past in collaboration with Synbios Creative Studio"
+
             />
           </Col>
 
